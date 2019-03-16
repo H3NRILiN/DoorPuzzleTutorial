@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 2400ac8e907f7764e89755e74c5c66ab
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Door_A
+    100004: Door_B
+    100006: DoorFrame
+    100008: Floor_A
+    100010: Floor_B
+    100012: Floor_Door
+    100014: InputPanel
+    100016: InputPanel_Button_1st
+    100018: InputPanel_Button_2nd
+    100020: InputPanel_Button_3rd
+    100022: InputPanel_Button_4th
+    100024: InputPanel_Button_5th
+    100026: InputPanel_Button_6th
+    100028: InputPanel_Button_7th
+    100030: InputPanel_Button_8th
+    100032: InputPanel_Button_9th
+    100034: InputPanel_Button_Confirm
+    100036: MechPart_A
+    100038: Roof_A
+    100040: Roof_B
+    100042: Roof_Door
+    100044: Wall_A
+    100046: Wall_B
+    400000: //RootNode
+    400002: Door_A
+    400004: Door_B
+    400006: DoorFrame
+    400008: Floor_A
+    400010: Floor_B
+    400012: Floor_Door
+    400014: InputPanel
+    400016: InputPanel_Button_1st
+    400018: InputPanel_Button_2nd
+    400020: InputPanel_Button_3rd
+    400022: InputPanel_Button_4th
+    400024: InputPanel_Button_5th
+    400026: InputPanel_Button_6th
+    400028: InputPanel_Button_7th
+    400030: InputPanel_Button_8th
+    400032: InputPanel_Button_9th
+    400034: InputPanel_Button_Confirm
+    400036: MechPart_A
+    400038: Roof_A
+    400040: Roof_B
+    400042: Roof_Door
+    400044: Wall_A
+    400046: Wall_B
+    2100000: No Name
+    2100002: Door
+    2100004: DoorFrame
+    2100006: Roof
+    2100008: MechPart
+    2100010: Floor
+    2100012: InputPanel
+    2100014: InputPanel_Button
+    2100016: Wall
+    2300000: Door_A
+    2300002: Door_B
+    2300004: DoorFrame
+    2300006: Floor_A
+    2300008: Floor_B
+    2300010: Floor_Door
+    2300012: InputPanel
+    2300014: InputPanel_Button_1st
+    2300016: InputPanel_Button_2nd
+    2300018: InputPanel_Button_3rd
+    2300020: InputPanel_Button_4th
+    2300022: InputPanel_Button_5th
+    2300024: InputPanel_Button_6th
+    2300026: InputPanel_Button_7th
+    2300028: InputPanel_Button_8th
+    2300030: InputPanel_Button_9th
+    2300032: InputPanel_Button_Confirm
+    2300034: MechPart_A
+    2300036: Roof_A
+    2300038: Roof_B
+    2300040: Roof_Door
+    2300042: Wall_A
+    2300044: Wall_B
+    3300000: Door_A
+    3300002: Door_B
+    3300004: DoorFrame
+    3300006: Floor_A
+    3300008: Floor_B
+    3300010: Floor_Door
+    3300012: InputPanel
+    3300014: InputPanel_Button_1st
+    3300016: InputPanel_Button_2nd
+    3300018: InputPanel_Button_3rd
+    3300020: InputPanel_Button_4th
+    3300022: InputPanel_Button_5th
+    3300024: InputPanel_Button_6th
+    3300026: InputPanel_Button_7th
+    3300028: InputPanel_Button_8th
+    3300030: InputPanel_Button_9th
+    3300032: InputPanel_Button_Confirm
+    3300034: MechPart_A
+    3300036: Roof_A
+    3300038: Roof_B
+    3300040: Roof_Door
+    3300042: Wall_A
+    3300044: Wall_B
+    4300000: Door_A
+    4300002: Door_B
+    4300004: DoorFrame
+    4300006: Roof_Door
+    4300008: MechPart_A
+    4300010: Floor_Door
+    4300012: InputPanel
+    4300014: InputPanel_Button_5th
+    4300016: Roof_B
+    4300018: Floor_A
+    4300020: Wall_A
+    4300022: Wall_B
+    4300024: Roof_A
+    4300026: Floor_B
+    4300028: InputPanel_Button_Confirm
+    4300030: InputPanel_Button_1st
+    4300032: InputPanel_Button_2nd
+    4300034: InputPanel_Button_3rd
+    4300036: InputPanel_Button_4th
+    4300038: InputPanel_Button_6th
+    4300040: InputPanel_Button_7th
+    4300042: InputPanel_Button_8th
+    4300044: InputPanel_Button_9th
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

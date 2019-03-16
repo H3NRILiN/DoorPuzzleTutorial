@@ -19,9 +19,12 @@ public class PlayerController : MonoBehaviour {
     public float m_CamRotateYSpeed;
     public float m_PlayerMoveSpeed;
 
-	// Use this for initialization
-	void Start () {
-		
+    float aroundX;
+    float aroundY;
+
+    // Use this for initialization
+    void Start () {
+        aroundY = transform.rotation.ToEulerAngles().y;
 	}
 	
 	// Update is called once per frame
@@ -44,10 +47,10 @@ public class PlayerController : MonoBehaviour {
         
     }
 
-    float aroundX;
-    float aroundY;
+    
     void Rotate(float x, float y)
     {
+        Debug.Log(aroundY);
         aroundY += x;
         aroundX += y;
         aroundX = Mathf.Clamp(aroundX, -80, 90);
@@ -57,7 +60,7 @@ public class PlayerController : MonoBehaviour {
             Quaternion.Euler(transform.rotation.x, aroundY, transform.rotation.z),
             m_CameraRotSmooth);
 
-        m_Camera.rotation = Quaternion.Lerp(m_Camera.rotation,Quaternion.Euler(-aroundX, m_Camera.rotation.y, m_Camera.rotation.z),m_CameraRotSmooth);
+        m_Camera.localRotation = Quaternion.Lerp(m_Camera.localRotation,Quaternion.Euler(-aroundX, m_Camera.localRotation.y, m_Camera.localRotation.z),m_CameraRotSmooth);
     }
 
     void Move(float hor, float ver)
