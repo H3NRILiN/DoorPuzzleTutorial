@@ -51,15 +51,14 @@ ModelImporter:
     400042: Roof_Door
     400044: Wall_A
     400046: Wall_B
-    2100000: No Name
-    2100002: Door
-    2100004: DoorFrame
-    2100006: Roof
-    2100008: MechPart
-    2100010: Floor
+    2100000: DoorFrame
+    2100002: Roof
+    2100004: MechPart
+    2100006: Floor
+    2100008: InputPanel_Button
+    2100010: Wall
     2100012: InputPanel
-    2100014: InputPanel_Button
-    2100016: Wall
+    2100014: Door
     2300000: Door_A
     2300002: Door_B
     2300004: DoorFrame
@@ -106,30 +105,70 @@ ModelImporter:
     3300040: Roof_Door
     3300042: Wall_A
     3300044: Wall_B
-    4300000: Door_A
-    4300002: Door_B
-    4300004: DoorFrame
-    4300006: Roof_Door
-    4300008: MechPart_A
-    4300010: Floor_Door
-    4300012: InputPanel
-    4300014: InputPanel_Button_5th
-    4300016: Roof_B
-    4300018: Floor_A
-    4300020: Wall_A
-    4300022: Wall_B
-    4300024: Roof_A
-    4300026: Floor_B
-    4300028: InputPanel_Button_Confirm
-    4300030: InputPanel_Button_1st
-    4300032: InputPanel_Button_2nd
-    4300034: InputPanel_Button_3rd
-    4300036: InputPanel_Button_4th
-    4300038: InputPanel_Button_6th
-    4300040: InputPanel_Button_7th
-    4300042: InputPanel_Button_8th
-    4300044: InputPanel_Button_9th
-  externalObjects: {}
+    4300000: DoorFrame
+    4300002: Roof_Door
+    4300004: MechPart_A
+    4300006: Floor_Door
+    4300008: InputPanel_Button_5th
+    4300010: Roof_B
+    4300012: Floor_A
+    4300014: Wall_A
+    4300016: Wall_B
+    4300018: Roof_A
+    4300020: Floor_B
+    4300022: InputPanel_Button_Confirm
+    4300024: InputPanel_Button_1st
+    4300026: InputPanel_Button_2nd
+    4300028: InputPanel_Button_3rd
+    4300030: InputPanel_Button_4th
+    4300032: InputPanel_Button_6th
+    4300034: InputPanel_Button_7th
+    4300036: InputPanel_Button_8th
+    4300038: InputPanel_Button_9th
+    4300040: InputPanel
+    4300042: Door_A
+    4300044: Door_B
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 6a1cd43d8517bb54eae8a84153b13027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorFrame
+    second: {fileID: 2100000, guid: 67c0838e3411d7c4c82edea8cf0f46ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 15f4b97a0403c5944b897cb240feb833, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: InputPanel
+    second: {fileID: 2100000, guid: d7b2cf5ee81daca4aaed32ea1aa79932, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: InputPanel_Button
+    second: {fileID: 2100000, guid: 86613a00a75b29f43ab9050686c6e34f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MechPart
+    second: {fileID: 2100000, guid: 565ae50dc0f7a98478c1c8393791ebe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: f235b6b6ca329174a9a05bcc1c1269ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall
+    second: {fileID: 2100000, guid: 5e6de9c8688bde7429baecc0846401a2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -168,7 +207,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
