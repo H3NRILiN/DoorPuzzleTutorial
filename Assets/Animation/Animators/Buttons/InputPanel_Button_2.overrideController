@@ -7,4 +7,8 @@ AnimatorOverrideController:
   m_PrefabInternal: {fileID: 0}
   m_Name: InputPanel_Button_2
   m_Controller: {fileID: 9100000, guid: e8c8a86913b62b949bc4900e2d899ea7, type: 2}
-  m_Clips: []
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 041d8f4463e70304f9e591f08e946681, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e53b2be388dbe4f4098d08ab11a2ed2b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1cf9e2baa7d64d74d9a4d8115cc5aa42, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bb2b084cb20a033458fa9bfbb6b522cf, type: 2}
