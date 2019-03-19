@@ -34,14 +34,20 @@ public class PlayerInteractive : MonoBehaviour {
                     return;
                 InputPanelButton inputPanBtn = hit.collider.GetComponent<InputPanelButton>();
                 hit.collider.GetComponent<Animator>().Play("Press");
-                
-                m_InputPanel.m_InputPassword += (int)inputPanBtn.m_ButtonNum;
+
                 if (inputPanBtn.m_ButtonNum == InputPanelButton.Numbers.Confirm)
                 {
-                    m_InputPanel.m_Confirmed = true;
-                    m_InputPanel.m_InputPassword = "";
+                    if (m_InputPanel.m_InputPassword == m_InputPanel.m_Password)
+                    {
+                        m_InputPanel.m_DoorsOpen = true;
+                    }
+                    else
+                        m_InputPanel.m_InputPassword = "";
+                        
                 }
-                    
+                else
+                m_InputPanel.m_InputPassword += (int)inputPanBtn.m_ButtonNum;
+
             }
         }
     }

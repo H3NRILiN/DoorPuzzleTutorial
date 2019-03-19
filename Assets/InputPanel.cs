@@ -10,27 +10,20 @@ public class InputPanel : MonoBehaviour {
     public Animator m_DoorsAnimator;
 
     public bool m_Confirmed;
-    bool m_DoorsOpened;
+    public bool m_DoorsOpen;
     
 	// Use this for initialization
 	void Start () {
-        m_DoorsOpened = false;
-        m_Confirmed = false;
+        m_DoorsOpen = false;
     }
 	
 	// Update is called once per frame
 	void Update () {
-        
 
-        if (!m_DoorsOpened&& m_Confirmed)
+        if (m_DoorsOpen)
         {
-            m_DoorsOpened = true;
             m_DoorsAnimator.SetTrigger("Open");
-            
         }
-        if (m_InputPassword != m_Password)
-        {
-            m_Confirmed = false;
-        }
+        
     }
 }
