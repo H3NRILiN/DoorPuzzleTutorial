@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerInteractive : MonoBehaviour {
+public class F_PlayerInteractive : MonoBehaviour {
 
     [Header("滑鼠點擊3D")]
     public Camera m_Cam;
@@ -10,7 +10,7 @@ public class PlayerInteractive : MonoBehaviour {
     public float m_MouseClickRayDist = 5;
 
     [Header("物件")]
-    public InputPanel m_InputPanel;
+    public F_InputPanel m_InputPanel;
     // Use this for initialization
     void Start () {
 		
@@ -30,12 +30,12 @@ public class PlayerInteractive : MonoBehaviour {
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, m_MouseClickRayDist, m_MouseClickRayMask))
             {
-                if (hit.collider.GetComponent<InputPanelButton>() == null)
+                if (hit.collider.GetComponent<F_InputPanelButton>() == null)
                     return;
-                InputPanelButton inputPanBtn = hit.collider.GetComponent<InputPanelButton>();
+                F_InputPanelButton inputPanBtn = hit.collider.GetComponent<F_InputPanelButton>();
                 hit.collider.GetComponent<Animator>().Play("Press");
 
-                if (inputPanBtn.m_ButtonNum == InputPanelButton.Numbers.Confirm)
+                if (inputPanBtn.m_ButtonNum == F_InputPanelButton.Numbers.Confirm)
                 {
                     if (m_InputPanel.m_InputPassword == m_InputPanel.m_Password)
                     {
