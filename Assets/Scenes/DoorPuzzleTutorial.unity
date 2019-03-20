@@ -2547,7 +2547,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   m_MouseClickRayDist: 5
-  m_InputPanel: {fileID: 1816663383}
 --- !u!1 &1174394338 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1587804847865794, guid: c137d34db058406438f60cea1a6a0e19,
@@ -4833,7 +4832,6 @@ GameObject:
   - component: {fileID: 1816663381}
   - component: {fileID: 1816663380}
   - component: {fileID: 1816663382}
-  - component: {fileID: 1816663383}
   m_Layer: 0
   m_Name: InputPanel
   m_TagString: Untagged
@@ -4912,22 +4910,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5191807, y: 0.6760631, z: 0.639008}
   m_Center: {x: 0, y: 0.23525792, z: 0.29599518}
---- !u!114 &1816663383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1816663378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb7526c34b5dbb84f8883003c17f1b91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Password: 3825
-  m_InputPassword: 
-  m_DoorsAnimator: {fileID: 987399007}
-  m_Confirmed: 0
-  m_DoorsOpen: 0
 --- !u!4 &1822245831 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4039839523780172, guid: c137d34db058406438f60cea1a6a0e19,

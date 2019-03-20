@@ -39,14 +39,14 @@ public class F_PlayerInteractive : MonoBehaviour {
                 {
                     if (m_InputPanel.m_InputPassword == m_InputPanel.m_Password)
                     {
-                        m_InputPanel.m_DoorsOpen = true;
+                        m_InputPanel.m_DoorsAnimator.SetTrigger("Open");
                     }
                     else
                         m_InputPanel.m_InputPassword = "";
-                        
+
                 }
                 else
-                m_InputPanel.m_InputPassword += (int)inputPanBtn.m_ButtonNum;
+                    m_InputPanel.m_InputPassword += (int)inputPanBtn.m_ButtonNum;
 
             }
         }
