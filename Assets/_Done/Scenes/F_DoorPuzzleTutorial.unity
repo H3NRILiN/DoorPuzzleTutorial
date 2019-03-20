@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 6386411}
   - component: {fileID: 6386410}
   - component: {fileID: 6386412}
+  - component: {fileID: 6386413}
   m_Layer: 9
   m_Name: InputPanel_Button_5th
   m_TagString: Untagged
@@ -333,6 +334,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6386413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 6386405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df1455777f814a40bacb14e9b1ce229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundsSettings:
+  - m_Name: button
+    m_AudioClip: {fileID: 8300000, guid: 722e683dcc398274c8afc15b528c06d3, type: 3}
 --- !u!1 &10739982
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,6 +363,7 @@ GameObject:
   - component: {fileID: 10739988}
   - component: {fileID: 10739987}
   - component: {fileID: 10739989}
+  - component: {fileID: 10739990}
   m_Layer: 9
   m_Name: InputPanel_Button_Confirm
   m_TagString: Untagged
@@ -550,6 +566,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &10739990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 10739982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df1455777f814a40bacb14e9b1ce229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundsSettings:
+  - m_Name: button
+    m_AudioClip: {fileID: 8300000, guid: 722e683dcc398274c8afc15b528c06d3, type: 3}
 --- !u!1 &71812232
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,6 +1403,7 @@ GameObject:
   - component: {fileID: 780030369}
   - component: {fileID: 780030368}
   - component: {fileID: 780030370}
+  - component: {fileID: 780030371}
   m_Layer: 9
   m_Name: InputPanel_Button_6th
   m_TagString: Untagged
@@ -1575,6 +1606,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &780030371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 780030363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df1455777f814a40bacb14e9b1ce229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundsSettings:
+  - m_Name: button
+    m_AudioClip: {fileID: 8300000, guid: 722e683dcc398274c8afc15b528c06d3, type: 3}
 --- !u!1 &820406364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1904,6 +1949,8 @@ GameObject:
   m_Component:
   - component: {fileID: 987399006}
   - component: {fileID: 987399007}
+  - component: {fileID: 987399009}
+  - component: {fileID: 987399008}
   m_Layer: 0
   m_Name: Doors
   m_TagString: Untagged
@@ -1944,6 +1991,117 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &987399008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987399005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df1455777f814a40bacb14e9b1ce229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundsSettings:
+  - m_Name: Rotate
+    m_AudioClip: {fileID: 8300000, guid: d6dee6d49a000214b8dfb47faba4d0f8, type: 3}
+  - m_Name: Slide
+    m_AudioClip: {fileID: 8300000, guid: 193d90b77b4c95443a56e96d672fc4ea, type: 3}
+--- !u!82 &987399009
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987399005}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1055630367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1959,6 +2117,7 @@ GameObject:
   - component: {fileID: 1055630373}
   - component: {fileID: 1055630372}
   - component: {fileID: 1055630374}
+  - component: {fileID: 1055630375}
   m_Layer: 9
   m_Name: InputPanel_Button_7th
   m_TagString: Untagged
@@ -2161,6 +2320,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1055630375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1055630367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df1455777f814a40bacb14e9b1ce229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundsSettings:
+  - m_Name: button
+    m_AudioClip: {fileID: 8300000, guid: 722e683dcc398274c8afc15b528c06d3, type: 3}
 --- !u!1 &1073078254
 GameObject:
   m_ObjectHideFlags: 0
@@ -2580,6 +2753,7 @@ GameObject:
   - component: {fileID: 1230462360}
   - component: {fileID: 1230462359}
   - component: {fileID: 1230462361}
+  - component: {fileID: 1230462362}
   m_Layer: 9
   m_Name: InputPanel_Button_8th
   m_TagString: Untagged
@@ -2782,6 +2956,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1230462362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1230462354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df1455777f814a40bacb14e9b1ce229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundsSettings:
+  - m_Name: button
+    m_AudioClip: {fileID: 8300000, guid: 722e683dcc398274c8afc15b528c06d3, type: 3}
 --- !u!1 &1259730263
 GameObject:
   m_ObjectHideFlags: 0
@@ -2992,6 +3180,7 @@ GameObject:
   - component: {fileID: 1267513276}
   - component: {fileID: 1267513275}
   - component: {fileID: 1267513277}
+  - component: {fileID: 1267513278}
   m_Layer: 9
   m_Name: InputPanel_Button_3rd
   m_TagString: Untagged
@@ -3194,6 +3383,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1267513278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1267513270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df1455777f814a40bacb14e9b1ce229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundsSettings:
+  - m_Name: button
+    m_AudioClip: {fileID: 8300000, guid: 722e683dcc398274c8afc15b528c06d3, type: 3}
 --- !u!1 &1302580212
 GameObject:
   m_ObjectHideFlags: 0
@@ -3209,6 +3412,7 @@ GameObject:
   - component: {fileID: 1302580218}
   - component: {fileID: 1302580217}
   - component: {fileID: 1302580219}
+  - component: {fileID: 1302580220}
   m_Layer: 9
   m_Name: InputPanel_Button_2nd
   m_TagString: Untagged
@@ -3411,6 +3615,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1302580220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1302580212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df1455777f814a40bacb14e9b1ce229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundsSettings:
+  - m_Name: button
+    m_AudioClip: {fileID: 8300000, guid: 722e683dcc398274c8afc15b528c06d3, type: 3}
 --- !u!1001 &1353282762
 Prefab:
   m_ObjectHideFlags: 0
@@ -3574,6 +3792,7 @@ GameObject:
   - component: {fileID: 1397683580}
   - component: {fileID: 1397683579}
   - component: {fileID: 1397683581}
+  - component: {fileID: 1397683582}
   m_Layer: 9
   m_Name: InputPanel_Button_4th
   m_TagString: Untagged
@@ -3776,6 +3995,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1397683582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1397683574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df1455777f814a40bacb14e9b1ce229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundsSettings:
+  - m_Name: button
+    m_AudioClip: {fileID: 8300000, guid: 722e683dcc398274c8afc15b528c06d3, type: 3}
 --- !u!1 &1412990894
 GameObject:
   m_ObjectHideFlags: 0
@@ -3791,6 +4024,7 @@ GameObject:
   - component: {fileID: 1412990900}
   - component: {fileID: 1412990899}
   - component: {fileID: 1412990901}
+  - component: {fileID: 1412990902}
   m_Layer: 9
   m_Name: InputPanel_Button_1st
   m_TagString: Untagged
@@ -3993,6 +4227,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1412990902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1412990894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df1455777f814a40bacb14e9b1ce229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundsSettings:
+  - m_Name: button
+    m_AudioClip: {fileID: 8300000, guid: 722e683dcc398274c8afc15b528c06d3, type: 3}
 --- !u!1 &1438647968
 GameObject:
   m_ObjectHideFlags: 0
@@ -4988,6 +5236,7 @@ GameObject:
   - component: {fileID: 1938728181}
   - component: {fileID: 1938728180}
   - component: {fileID: 1938728182}
+  - component: {fileID: 1938728183}
   m_Layer: 9
   m_Name: InputPanel_Button_9th
   m_TagString: Untagged
@@ -5190,6 +5439,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1938728183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1938728175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df1455777f814a40bacb14e9b1ce229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundsSettings:
+  - m_Name: button
+    m_AudioClip: {fileID: 8300000, guid: 722e683dcc398274c8afc15b528c06d3, type: 3}
 --- !u!1001 &1963835232
 Prefab:
   m_ObjectHideFlags: 0
