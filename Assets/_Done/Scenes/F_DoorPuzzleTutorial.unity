@@ -8,8 +8,8 @@ OcclusionCullingSettings:
     smallestOccluder: 4
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: d1c3109bdb54ad54c8a2b2838528e640
-  m_OcclusionCullingData: {fileID: 36300000, guid: c53f536650fddf8489e86a81c5a15d7c,
+  m_SceneGUID: 909bb9a143aa08e45a1d65ca675963d7
+  m_OcclusionCullingData: {fileID: 36300000, guid: 156ad0dc4bb6e3849a2ae8b3df645108,
     type: 2}
 --- !u!104 &2
 RenderSettings:
@@ -2209,7 +2209,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1079196700
 Transform:
@@ -4926,8 +4926,6 @@ MonoBehaviour:
   m_Password: 25167
   m_InputPassword: 
   m_DoorsAnimator: {fileID: 987399007}
-  m_Confirmed: 0
-  m_DoorsOpen: 0
 --- !u!4 &1822245831 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4039839523780172, guid: c137d34db058406438f60cea1a6a0e19,
